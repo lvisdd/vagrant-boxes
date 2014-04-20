@@ -2,10 +2,10 @@
 
 ## Environment
 
-[Windows7 SP1 64Bit]
-[veewee](https://github.com/jedi4ever/veewee) (0.3.12)
-[Vagrant](http://www.vagrantup.com/downloads.html) (1.5.3)
-[VirtualBox](https://www.virtualbox.org/wiki/Downloads) (4.3.10)
+* Windows7 (SP1 64Bit)
+* [veewee](https://github.com/jedi4ever/veewee) (0.3.12)
+* [Vagrant](http://www.vagrantup.com/downloads.html) (1.5.3)
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) (4.3.10)
 
 ## Downloads
 
@@ -62,12 +62,12 @@ $ vagrant up
 ```
 
 ## Browsing Test
-Apache : http://localhost:8080/
-Elasticsearch : http://localhost:9200/
-Kibana : http://localhost:8080/kibana/#/dashboard
-Kibana(Logstash Dashboard) : http://localhost:8080/kibana/index.html#/dashboard/file/logstash.json
-Marvel : http://localhost:9200/_plugin/marvel/kibana/index.html#/dashboard/file/marvel.overview.json
-sense : http://localhost:9200/_plugin/marvel/sense/index.html
+* Apache : http://localhost:8080/
+* Elasticsearch : http://localhost:9200/
+* Kibana : http://localhost:8080/kibana/#/dashboard
+* Kibana(Logstash Dashboard) : http://localhost:8080/kibana/index.html#/dashboard/file/logstash.json
+* Marvel : http://localhost:9200/_plugin/marvel/kibana/index.html#/dashboard/file/marvel.overview.json
+* sense : http://localhost:9200/_plugin/marvel/sense/index.html
 
 ## Apache Bench Test
 
