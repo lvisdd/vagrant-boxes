@@ -56,7 +56,7 @@ $ md5sum CentOS-6.5-x86_64-v20140420.box
 ```sh
 
 $ git clone https://github.com/lvisdd/vagrant-boxes.git
-$ cd vagrantfile/kibana/Vagrantfile
+$ cd vagrant-boxes/vagrantfile/kibana
 $ vagrant up
 
 ```
