@@ -53,6 +53,8 @@ $ md5sum CentOS-6.5-x86_64-v20140420.box
 
 ## How to use these Vagrantfiles
 
+### Fluentd + Elasticsearch + kibana
+
 ```sh
 
 $ git clone https://github.com/lvisdd/vagrant-boxes.git
