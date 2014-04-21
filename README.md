@@ -14,6 +14,8 @@
 
 ## How to build these boxes
 
+### CentOS-6.5-x86_64
+
 ```sh
 
 ### Install veewee
