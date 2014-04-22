@@ -53,9 +53,9 @@ $ md5sum CentOS-6.5-x86_64-v20140420.box
 
 ```
 
-## How to use these Vagrantfiles
+# How to use these Vagrantfiles
 
-### Fluentd + Elasticsearch + kibana
+## Fluentd + Elasticsearch + kibana
 
 ```sh
 
@@ -80,3 +80,27 @@ $ vagrant up
 $ ab -n 1000 -c 100 http://localhost/
 
 ```
+
+## Docker
+
+```sh
+
+$ git clone https://github.com/lvisdd/vagrant-boxes.git
+$ cd vagrant-boxes/vagrantfile/docker
+$ vagrant up
+
+```
+
+### Run Test
+
+```sh
+docker run centos /bin/echo "Hello World"
+docker run centos /bin/echo /etc/redhat-release
+docker run -i -t centos /bin/bash
+
+```
+
+### For more information
+
+* [Installation > Red Hat Enterprise Linux](http://docs.docker.io/installation/rhel/)
+* [Examples](http://docs.docker.io/use/)
