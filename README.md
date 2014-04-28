@@ -104,3 +104,16 @@ docker run -i -t centos /bin/bash
 
 * [Installation > Red Hat Enterprise Linux](http://docs.docker.io/installation/rhel/)
 * [Examples](http://docs.docker.io/use/)
+
+## Jenkins
+
+```sh
+
+$ git clone https://github.com/lvisdd/vagrant-boxes.git
+$ cd vagrant-boxes/vagrantfile/jenkins
+$ vagrant up
+
+```
+
+### Browsing Test
+* Jenkins : http://localhost:18080/
