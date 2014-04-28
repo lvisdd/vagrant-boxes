@@ -65,7 +65,7 @@ $ vagrant up
 
 ```
 
-### Browsing Test
+#### Browsing Test
 * Apache : http://localhost:8080/
 * Elasticsearch : http://localhost:9200/
 * Kibana : http://localhost:8080/kibana/#/dashboard
@@ -73,7 +73,7 @@ $ vagrant up
 * Marvel : http://localhost:9200/_plugin/marvel/kibana/index.html#/dashboard/file/marvel.overview.json
 * sense : http://localhost:9200/_plugin/marvel/sense/index.html
 
-### Apache Bench Test
+#### Apache Bench Test
 
 ```sh
 
@@ -91,7 +91,7 @@ $ vagrant up
 
 ```
 
-### Run Test
+#### Run Test
 
 ```sh
 docker run centos /bin/echo "Hello World"
@@ -100,7 +100,7 @@ docker run -i -t centos /bin/bash
 
 ```
 
-### For more information
+#### For more information
 
 * [Installation > Red Hat Enterprise Linux](http://docs.docker.io/installation/rhel/)
 * [Examples](http://docs.docker.io/use/)
@@ -115,5 +115,5 @@ $ vagrant up
 
 ```
 
-### Browsing Test
+#### Browsing Test
 * Jenkins : http://localhost:18080/
