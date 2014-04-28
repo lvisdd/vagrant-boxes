@@ -18,6 +18,8 @@ yum -y install jenkins
 chkconfig jenkins on
 service jenkins start
 
+sleep 10
+
 # images
 cp -p /vagrant/images/jenkins.png /var/cache/jenkins/war/images/jenkins.png
 chown jenkins:jenkins /var/cache/jenkins/war/images/jenkins.png
