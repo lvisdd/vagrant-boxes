@@ -117,3 +117,30 @@ $ vagrant up
 
 #### Browsing Test
 * Jenkins : http://localhost:18080/
+
+## Norikra
+
+```sh
+
+$ git clone https://github.com/lvisdd/vagrant-boxes.git
+$ cd vagrant-boxes/vagrantfile/norikra
+$ vagrant up
+
+```
+
+#### Browsing Test
+* Norikra : http://localhost:26578/
+
+#### Apache Bench Test
+
+```sh
+
+$ ab -c 5 -n 100 http://localhost/index.html;sleep 80;ab -c 5 -n 200 http://localhost/index.html
+$ sleep 60
+$ norikra-client event fetch access_count_per_1min
+
+$ ab -c 5 -n 1000 http://localhost/index.html
+$ sleep 60
+$ norikra-client event fetch access_over_1000_per_1min
+
+```
