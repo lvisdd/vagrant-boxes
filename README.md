@@ -118,7 +118,7 @@ $ vagrant up
 #### Browsing Test
 * Jenkins : http://localhost:18080/
 
-## Norikra
+## Norikra + Fluentd
 
 ```sh
 
