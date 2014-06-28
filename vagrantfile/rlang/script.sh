@@ -19,8 +19,8 @@ rpm -ivh http://ftp.riken.jp/Linux/fedora/epel/6/x86_64/epel-release-6-8.noarch.
 # R
 yum -y install R
 
-### rstudio
-# rstudio
+### RStudio
+# RStudio
 yum -y install openssl098e
 yum -y install compat-libgfortran-41
 yum -y install gstreamer-plugins-base

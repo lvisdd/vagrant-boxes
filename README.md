@@ -145,7 +145,7 @@ $ norikra-client event fetch access_over_1000_per_1min
 
 ```
 
-## R + rstudio
+## R + RStudio
 
 ```sh
 
