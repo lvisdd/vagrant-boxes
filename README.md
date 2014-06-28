@@ -144,3 +144,17 @@ $ sleep 60
 $ norikra-client event fetch access_over_1000_per_1min
 
 ```
+
+## R + rstudio
+
+```sh
+
+$ git clone https://github.com/lvisdd/vagrant-boxes.git
+$ cd vagrant-boxes/vagrantfile/rlang
+$ vagrant up
+
+```
+
+#### Browsing Test
+* rstudio : http://127.0.0.1:8787/
+* user/pass : vagrant/vagrant

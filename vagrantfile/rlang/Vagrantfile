@@ -1,0 +1,19 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.hostname = "rlang"
+  config.vm.box = "centos65_x86_64_minimal"
+  config.vm.box_url = "https://yoctfs.jp/res/box-l-cvykn4mdamxapug64lffi2qc5u-1001?account=storage&download=utf-8&expires=1397952767&uid=40f6455f-fdf5-403f-9d1d-86665268568f&signature=NWY0MzYzYWEwN2YyZGRkNDczMzU5ZTQ0YzQwY2VhNTUzNzFlYzJmMw--"
+
+  config.vm.provision "shell", :path => "script.sh"
+
+  config.vm.network :forwarded_port, guest: 8787, host: 8787
+
+  config.vm.provider :virtualbox do |vb|
+    vb.customize ["modifyvm", :id, "--memory", "1024"]
+    vb.customize ["setextradata", :id, "VBoxInternal/Devices/VMMDev/0/Config/GetHostTimeDisabled", 0]
+  end
+end
