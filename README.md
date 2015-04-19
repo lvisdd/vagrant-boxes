@@ -158,3 +158,17 @@ $ vagrant up
 #### Browsing Test
 * rstudio : http://127.0.0.1:8787/
 * user/pass : vagrant/vagrant
+
+## Solr5.1.0
+
+```sh
+
+$ git clone https://github.com/lvisdd/vagrant-boxes.git
+$ cd vagrant-boxes/vagrantfile/solr/510
+$ vagrant up
+
+```
+
+#### Browsing Test
+* http://localhost:8983/solr/admin
+* http://localhost:8983/solr/#/sample/query
