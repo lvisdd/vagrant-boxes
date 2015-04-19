@@ -20,6 +20,8 @@ tar xzvf solr-5.1.0.tgz
 cd solr-5.1.0
 ./bin/install_solr_service.sh ../solr-5.1.0.tgz -d /opt/solr
 
+rm -fR /var/tmp/solr-5.1.0*
+
 service solr stop
 service solr status
 
@@ -41,7 +43,7 @@ chown -R solr:solr /opt/solr /opt/solr-5.1.0
 
 ### Service
 service solr start
-sleep 10
+sleep 30
 service solr status
 
 ### Browser
