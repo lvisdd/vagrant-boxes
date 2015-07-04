@@ -11,6 +11,8 @@
 
 * **[CentOS-6.5-x86_64-v20140420.box](https://box.yahoo.co.jp/guest/viewer?sid=box-l-cvykn4mdamxapug64lffi2qc5u-1001&uniqid=40f6455f-fdf5-403f-9d1d-86665268568f&viewtype=detail):** CentOS 6.5 x86\_64 Minimal *(Vagrant 1.5.3, VirtualBox Guest Additions 4.3.10, Chef 11.12.2, Puppet 3.5.1)*  
   <small>md5sum: `cdeacfcdce1d58103dc2867a639ebe21`</small>
+* **[CentOS-6.6-x86_64-v20150704.box](https://box.yahoo.co.jp/guest/viewer?sid=box-l-cvykn4mdamxapug64lffi2qc5u-1001&uniqid=8ddf5dda-d284-4cb8-ad30-1fb8b408f09e&viewtype=detail):** CentOS 6.5 x86\_64 Minimal *(Vagrant 1.5.3, VirtualBox Guest Additions 4.3.10, Chef 11.12.2, Puppet 3.5.1)*  
+  <small>md5sum: `fefb36c246f85a8256aa9e156c9e948c`</small>
 
 ## How to build these boxes
 
